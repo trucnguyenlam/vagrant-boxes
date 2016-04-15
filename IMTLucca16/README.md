@@ -26,12 +26,10 @@ Setting up the machine, use these commands:
     vagrant up
 
 Logging in the virtual machine:
+
     For OSX or Linux:
-    
-    vagrant ssh
-    
+        vagrant ssh
     For Windows: use putty
-    
         Host: 127.0.0.1
         Port: 2222
         Username: vagrant
