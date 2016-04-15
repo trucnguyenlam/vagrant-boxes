@@ -16,14 +16,11 @@ Ubuntu 14.04 x86
 
 ## Instruction ##
 Download the image from https://mega.nz/#!r0kWTbrT!DUy3JL04-F4DyTUqGAe4VXuiqdr4K_NBJ8UX_vdyEYU
-
 Change into directory of unzipped image.
-
 Setting up the machine, use these commands:
+
     vagrant box add basebox imtlucca.box
-
     vagrant init basebox
-
     vagrant up
 
 Logging in the virtual machine:
