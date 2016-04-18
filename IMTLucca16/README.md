@@ -17,15 +17,13 @@ Ubuntu 14.04 x86
 ## Instruction ##
 Download the image from https://mega.nz/#!r0kWTbrT!DUy3JL04-F4DyTUqGAe4VXuiqdr4K_NBJ8UX_vdyEYU
 
-Change into directory of unzipped image.
-
-Setting up the machine, use these commands:
+Use the following commands (from the image directory) for setting up the machine:
 
     vagrant box add basebox imtlucca.box
     vagrant init basebox
     vagrant up
 
-Logging in the virtual machine:
+Logging into the virtual machine:
 
     For OSX or Linux:
         vagrant ssh
@@ -35,8 +33,8 @@ Logging in the virtual machine:
         Username: vagrant
         Password: vagrant
 
-## Share Directory ##
-Everything in "data" directory can be accessed from the virtual machine by mount directory   /vagrant_data
+## Shared Directory ##
+The "data" directory of host machine can be accessed from the virtual machine by directory  /vagrant_data
 
 
 
