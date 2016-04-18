@@ -34,7 +34,7 @@ Logging into the virtual machine:
         Password: vagrant
 
 ## Shared Directory ##
-The "data" directory of host machine can be accessed from the virtual machine by directory  /vagrant_data
+"data" directory of the host machine:   /vagrant_data
 
 
 
