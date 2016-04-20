@@ -26,17 +26,15 @@ Replace the line starting with `config.vm.synced_folder` in the file named `Vagr
     `config.vm.synced_folder "data", "/vagrant_data"` 
     
 Logging into the virtual machine:
-    For OSX or Linux:
-    ```bash
-        vagrant up
-        
-        vagrant ssh
-    ```
-    
-    For Windows: 
-    ```bash
-        vagrant up
-    ```
+For OSX or Linux:
+```bash
+    vagrant up
+    vagrant ssh
+```
+For Windows: 
+```bash
+    vagrant up
+```
     
         then use putty.exe with the following settings:
         ``` 
