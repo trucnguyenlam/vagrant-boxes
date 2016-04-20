@@ -22,7 +22,8 @@ Use the following commands (from the image directory) for setting up the machine
     vagrant box add basebox imtlucca.box
     vagrant init basebox
 
-Replace the line starting with `config.vm.synced_folder` in the file named `Vagrantfile` with this line: `config.vm.synced_folder "data", "/vagrant_data"` 
+Replace the line starting with `config.vm.synced_folder` in the file named `Vagrantfile` with this line: 
+    `config.vm.synced_folder "data", "/vagrant_data"` 
     
 Logging into the virtual machine:
 
