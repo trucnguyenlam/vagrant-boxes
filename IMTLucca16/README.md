@@ -31,7 +31,7 @@ Logging into the virtual machine:
         vagrant ssh
     For Windows: 
         vagrant up
-        and use putty.exe
+        and use putty.exe with the following settings:
         Host: 127.0.0.1
         Port: 2222
         Username: vagrant
