@@ -18,20 +18,23 @@ Ubuntu 14.04 x86
 Download the image from https://mega.nz/#!r0kWTbrT!DUy3JL04-F4DyTUqGAe4VXuiqdr4K_NBJ8UX_vdyEYU
 
 Use the following commands (from the image directory) for setting up the machine:
-
+```bash
     vagrant box add basebox imtlucca.box
     vagrant init basebox
-
+```
 Replace the line starting with `config.vm.synced_folder` in the file named `Vagrantfile` with this line: 
     `config.vm.synced_folder "data", "/vagrant_data"` 
     
 Logging into the virtual machine:
-
     For OSX or Linux:
+    ```bash
         vagrant up
         vagrant ssh
+    ```
     For Windows: 
+    ```bash
         vagrant up
+    ```
         then use putty.exe with the following settings:
             Host: 127.0.0.1
             Port: 2222
