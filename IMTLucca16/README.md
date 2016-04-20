@@ -22,7 +22,7 @@ Use the following commands (from the image directory) for setting up the machine
     vagrant box add basebox imtlucca.box
     vagrant init basebox
 
-Replace the line starting with `config.vm.synced_folder` in the file named Vagrantfile with this line: `config.vm.synced_folder "data", "/vagrant_data"` 
+Replace the line starting with `config.vm.synced_folder` in the file named `Vagrantfile` with this line: `config.vm.synced_folder "data", "/vagrant_data"` 
     
 Logging into the virtual machine:
 
@@ -31,11 +31,11 @@ Logging into the virtual machine:
         vagrant ssh
     For Windows: 
         vagrant up
-        and use putty.exe with the following settings:
-        Host: 127.0.0.1
-        Port: 2222
-        Username: vagrant
-        Password: vagrant
+        then use putty.exe with the following settings:
+            Host: 127.0.0.1
+            Port: 2222
+            Username: vagrant
+            Password: vagrant
 
 ## Shared Directory ##
 "data" directory of the host machine:   /vagrant_data
